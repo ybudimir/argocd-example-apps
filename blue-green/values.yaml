@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/google-samples/gb-frontend
-  tag: v5
+  repository: us-docker.pkg.dev/google-samples/containers/gke/hello-app
+  tag: "1.0"
   pullPolicy: IfNotPresent
 
 service:
